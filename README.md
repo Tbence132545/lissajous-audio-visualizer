@@ -69,7 +69,9 @@ The visualization is generated through a few key steps:
 2.  **Amplitude Analysis**: For each frame, the Root Mean Square (RMS) amplitude is calculated. This value represents the "loudness" of the audio at that moment.
 3.  **Particle Dynamics**: The RMS amplitude directly controls the number of active particles rendered on the screen. Louder sounds create more particles, while silence reduces them.
 4.  **Lissajous Curves**: Each particle follows a parametric path defined by a Lissajous curve equation:
+   
     $$
     x(t) = A \sin(a t + \delta), \quad y(t) = B \sin(b t)
     $$
-5.  **Rendering**: The particle positions are sent to the GPU, where [ModernGL](https://github.com/moderngl/moderngl) efficiently renders them as a network of smooth, blended lines with vibrant color gradients.
+    
+6.  **Rendering**: The particle positions are sent to the GPU, where [ModernGL](https://github.com/moderngl/moderngl) efficiently renders them as a network of smooth, blended lines with vibrant color gradients.
