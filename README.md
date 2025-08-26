@@ -1,4 +1,4 @@
-# Audio Lissajous Lines
+# Audio visualization with Lissajous lines
 
 A real-time audio-reactive visualization using Lissajous curves. This program listens to your system's audio output and generates a dynamic, colorful particle network that dances to the music.
 
